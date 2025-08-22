@@ -44,7 +44,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} className="text-emerald-400" />
-                <span className="text-sm">Open to relocate</span>
+                <span className="text-sm">Calgary (Open to relocate)</span>
               </div>
             </div>
 

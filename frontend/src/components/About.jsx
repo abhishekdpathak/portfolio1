@@ -91,22 +91,21 @@ const About = () => {
 
         {/* Highlights Section */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
-            {highlights.map((highlight, index) => (
-              <Card key={index} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-all duration-300 transform hover:scale-105">
-                <CardContent className="p-6 text-center">
-                  <div className="flex justify-center mb-4">
-                    {highlight.icon}
-                  </div>
-                  <h4 className="text-xl font-semibold text-white mb-3">
-                    {highlight.title}
-                  </h4>
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    {highlight.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          {highlights.map((highlight, index) => (
+            <Card key={index} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-all duration-300 transform hover:scale-105">
+              <CardContent className="p-6 text-center">
+                <div className="flex justify-center mb-4">
+                  {highlight.icon}
+                </div>
+                <h4 className="text-xl font-semibold text-white mb-3">
+                  {highlight.title}
+                </h4>
+                <p className="text-slate-300 text-sm leading-relaxed">
+                  {highlight.description}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
 
         {/* Education Section */}

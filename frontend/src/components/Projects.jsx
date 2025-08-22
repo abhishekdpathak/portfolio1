@@ -15,7 +15,16 @@ const Projects = () => {
     : mockData.projects.filter(project => project.category === selectedCategory);
 
   return (
-    <section id="projects" className="py-20 bg-slate-800">
+    <section id="projects" className="py-20 bg-slate-800 relative overflow-hidden animated-bg">
+      {/* Floating Elements */}
+      <div className="bg-particles">
+        <div className="floating-element floating-square float-3 text-emerald-400" style={{top: '5%', left: '15%'}}></div>
+        <div className="floating-element floating-triangle float-1 text-blue-300" style={{top: '20%', right: '10%'}}></div>
+        <div className="floating-element floating-hexagon float-4 text-purple-300" style={{bottom: '20%', left: '8%'}}></div>
+        <div className="floating-element floating-circle float-2 text-emerald-300" style={{bottom: '5%', right: '15%'}}></div>
+        <div className="floating-element floating-square float-5 text-yellow-300" style={{top: '65%', left: '90%'}}></div>
+        <div className="floating-element floating-circle float-1 text-blue-400" style={{top: '45%', left: '2%'}}></div>
+      </div>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

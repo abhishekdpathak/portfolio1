@@ -26,7 +26,15 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-slate-900">
+    <section id="contact" className="py-20 bg-slate-900 relative overflow-hidden animated-bg">
+      {/* Floating Elements */}
+      <div className="bg-particles">
+        <div className="floating-element floating-triangle float-2 text-emerald-400" style={{top: '12%', left: '10%'}}></div>
+        <div className="floating-element floating-circle float-4 text-blue-300" style={{top: '28%', right: '15%'}}></div>
+        <div className="floating-element floating-hexagon float-1 text-purple-300" style={{bottom: '25%', left: '12%'}}></div>
+        <div className="floating-element floating-square float-5 text-emerald-300" style={{bottom: '12%', right: '10%'}}></div>
+        <div className="floating-element floating-circle float-3 text-yellow-300" style={{top: '60%', left: '85%'}}></div>
+      </div>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

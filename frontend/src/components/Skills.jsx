@@ -43,7 +43,16 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="py-20 bg-slate-800">
+    <section id="skills" className="py-20 bg-slate-800 relative overflow-hidden animated-bg">
+      {/* Floating Elements */}
+      <div className="bg-particles">
+        <div className="floating-element floating-triangle float-1 text-emerald-400" style={{top: '8%', left: '12%'}}></div>
+        <div className="floating-element floating-square float-3 text-blue-300" style={{top: '25%', right: '8%'}}></div>
+        <div className="floating-element floating-circle float-5 text-purple-300" style={{bottom: '25%', left: '6%'}}></div>
+        <div className="floating-element floating-hexagon float-2 text-emerald-300" style={{bottom: '8%', right: '12%'}}></div>
+        <div className="floating-element floating-circle float-4 text-yellow-300" style={{top: '60%', left: '85%'}}></div>
+        <div className="floating-element floating-square float-1 text-blue-400" style={{top: '40%', left: '3%'}}></div>
+      </div>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

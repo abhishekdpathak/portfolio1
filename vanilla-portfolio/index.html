@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Pathak - Marketing Strategist</title>
+    <meta name="description" content="Professional marketing portfolio showcasing 5+ years of experience in digital marketing, campaign management, and business development.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    Abhishek Pathak
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                    <i class="fas fa-times" id="closeIcon" style="display: none;"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile" id="mobileNav">
+                <a href="#home" class="nav-link-mobile">Home</a>
+                <a href="#about" class="nav-link-mobile">About</a>
+                <a href="#skills" class="nav-link-mobile">Skills</a>
+                <a href="#experience" class="nav-link-mobile">Experience</a>
+                <a href="#projects" class="nav-link-mobile">Projects</a>
+                <a href="#contact" class="nav-link-mobile">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero animated-bg">
+        <!-- Floating Elements -->
+        <div class="bg-particles">
+            <div class="floating-element floating-circle float-1 emerald" style="top: 10%; left: 10%;"></div>
+            <div class="floating-element floating-square float-2 blue" style="top: 20%; right: 15%;"></div>
+            <div class="floating-element floating-triangle float-3 purple" style="bottom: 30%; left: 8%;"></div>
+            <div class="floating-element floating-hexagon float-4 emerald-light" style="top: 60%; right: 20%;"></div>
+            <div class="floating-element floating-circle float-5 yellow" style="bottom: 15%; right: 10%;"></div>
+            <div class="floating-element floating-square float-1 blue-light" style="top: 80%; left: 20%;"></div>
+            <div class="floating-element floating-triangle float-2 emerald-bright" style="top: 15%; left: 70%;"></div>
+            <div class="floating-element floating-circle float-3 purple-light" style="bottom: 60%; right: 8%;"></div>
+        </div>
+
+        <!-- Background Pattern -->
+        <div class="hero-bg-pattern">
+            <div class="hero-blur-1"></div>
+            <div class="hero-blur-2"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-main">Marketing</span><br />
+                        <span class="title-gradient">Strategist</span>
+                    </h1>
+                    <p class="hero-description">
+                        Transforming brands through data-driven campaigns and innovative marketing strategies. 
+                        5+ years of proven expertise in digital marketing, campaign management, and business development.
+                    </p>
+                    
+                    <!-- Quick Contact Info -->
+                    <div class="hero-contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>abhishekpathak1497@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (587) 434-9045</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Calgary (Open to relocate)</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                            View My Work
+                        </button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                            Get In Touch
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Achievement Cards -->
+                <div class="achievement-cards">
+                    <div class="achievement-card">
+                        <div class="achievement-number emerald">5+</div>
+                        <div class="achievement-label">Years Experience</div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-number blue">40%</div>
+                        <div class="achievement-label">Brand Awareness Increase</div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-number purple">20%</div>
+                        <div class="achievement-label">Email Open Rate Boost</div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-number yellow">15%</div>
+                        <div class="achievement-label">Content Engagement Growth</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <button onclick="scrollToSection('about')" class="scroll-btn">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about animated-bg">
+        <!-- Floating Elements -->
+        <div class="bg-particles">
+            <div class="floating-element floating-hexagon float-2 emerald" style="top: 5%; left: 5%;"></div>
+            <div class="floating-element floating-circle float-4 blue-light" style="top: 15%; right: 10%;"></div>
+            <div class="floating-element floating-square float-1 purple-light" style="bottom: 20%; left: 15%;"></div>
+            <div class="floating-element floating-triangle float-5 emerald-light" style="bottom: 10%; right: 5%;"></div>
+            <div class="floating-element floating-circle float-3 yellow-light" style="top: 70%; left: 80%;"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="emerald">Me</span></h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="about-grid">
+                <!-- Personal Photo Section -->
+                <div class="about-photo">
+                    <div class="photo-container">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTU4ODYxNTB8MA&ixlib=rb-4.1.0&q=85" 
+                             alt="Abhishek Pathak - Marketing Professional" 
+                             class="profile-photo">
+                    </div>
+                    <!-- Decorative elements -->
+                    <div class="photo-decoration-1"></div>
+                    <div class="photo-decoration-2"></div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="about-content">
+                    <h3 class="about-subtitle">Marketing Professional with a Passion for Results</h3>
+                    <div class="about-text">
+                        <p>
+                            With over 5 years of experience in the marketing sector, I am a dedicated professional 
+                            with extensive knowledge of marketing tactics, consumer engagement, and business development. 
+                            My expertise spans across digital marketing, campaign management, and strategic planning.
+                        </p>
+                        <p>
+                            I specialize in analyzing market trends and developing comprehensive marketing strategies 
+                            that drive customer acquisition, retention, and loyalty. My approach combines creative 
+                            thinking with data-driven insights to deliver powerful campaigns that exceed expectations.
+                        </p>
+                        <p>
+                            My educational background includes a Diploma in Business Administration with a Major in 
+                            Marketing, complemented by an Engineering degree that provides me with analytical and 
+                            problem-solving skills that enhance my marketing strategies.
+                        </p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number emerald">10+</div>
+                            <div class="stat-label">Product Categories</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number blue">3+</div>
+                            <div class="stat-label">Major Campaigns</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlights Section -->
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon emerald">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="highlight-title">Proven Results</h4>
+                    <p class="highlight-description">
+                        5+ years delivering measurable marketing outcomes with 20-40% performance improvements
+                    </p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon blue">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h4 class="highlight-title">Strategic Focus</h4>
+                    <p class="highlight-description">
+                        Data-driven approach to campaign planning and execution with emphasis on ROI optimization
+                    </p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon purple">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4 class="highlight-title">Leadership</h4>
+                    <p class="highlight-description">
+                        Experienced in team management, mentorship, and cross-functional collaboration
+                    </p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon yellow">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4 class="highlight-title">Growth Oriented</h4>
+                    <p class="highlight-description">
+                        Consistently achieved significant increases in brand awareness, engagement, and conversions
+                    </p>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="education-grid">
+                <div class="education-card">
+                    <h4 class="education-title emerald">Education</h4>
+                    <div class="education-content">
+                        <div class="education-item">
+                            <h5>Business Administration - Marketing</h5>
+                            <p class="school emerald">Southern Alberta Institute of Technology</p>
+                            <p class="description">
+                                Specialized in Brand Management, Market Research, Marketing Strategies, and Consumer Behavior
+                            </p>
+                        </div>
+                        <div class="education-item">
+                            <h5>Bachelor of Engineering</h5>
+                            <p class="school emerald">Marwadi University</p>
+                            <p class="description">
+                                Technical foundation in Project Management, Operations, and Analytical Problem-Solving
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <h4 class="education-title blue">Core Competencies</h4>
+                    <div class="competencies-list">
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Marketing Strategy & Campaign Planning</span>
+                        </div>
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Digital Marketing & SEO/SEM</span>
+                        </div>
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Social Media Management</span>
+                        </div>
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Email Marketing & Automation</span>
+                        </div>
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Data Analysis & Performance Optimization</span>
+                        </div>
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Brand Management & Content Creation</span>
+                        </div>
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Team Leadership & Project Coordination</span>
+                        </div>
+                        <div class="competency-item">
+                            <div class="competency-bullet blue"></div>
+                            <span>Market Research & Consumer Insights</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

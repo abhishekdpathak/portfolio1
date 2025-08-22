@@ -74,6 +74,7 @@ export const mockData = {
       title: "Brand Management Campaign",
       category: "Brand Strategy",
       description: "Designed comprehensive marketing campaign for salon business including customer feedback systems and brand awareness initiatives.",
+      image: "https://images.unsplash.com/photo-1533750349088-cd871a92f312?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxtYXJrZXRpbmclMjBjYW1wYWlnbnxlbnwwfHx8fDE3NTU4NDY0MDV8MA&ixlib=rb-4.1.0&q=85",
       results: [
         "Significantly increased customer base",
         "Enhanced brand visibility in local market",
@@ -86,6 +87,7 @@ export const mockData = {
       title: "Strategic Marketing & Brand Extension",
       category: "Product Marketing",
       description: "Created marketing campaign and brand extension strategy for brewery's seltzer drink through comprehensive market research.",
+      image: "https://images.pexels.com/photos/6476193/pexels-photo-6476193.jpeg",
       results: [
         "Increased sales for new product line",
         "Enhanced brand awareness in target market",
@@ -98,6 +100,7 @@ export const mockData = {
       title: "Entrepreneurship Venture",
       category: "Business Development",
       description: "Developed business concept for customized men's formal shoes prioritizing comfort and style through market gap analysis.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxtYXJrZXRpbmclMjBjYW1wYWlnbnxlbnwwfHx8fDE3NTU4NDY0MDV8MA&ixlib=rb-4.1.0&q=85",
       results: [
         "Identified untapped market opportunity",
         "Created comprehensive business plan",
@@ -110,6 +113,7 @@ export const mockData = {
       title: "Research & Development Initiative",
       category: "Innovation",
       description: "Led research project on carbon adsorbent development for CO2 capture using waste materials for environmental sustainability.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxzdHJhdGVneSUyMGFuYWx5dGljc3xlbnwwfHx8fDE3NTU4ODYxOTB8MA&ixlib=rb-4.1.0&q=85",
       results: [
         "Contributed to environmental sustainability research",
         "Developed cost-effective solution approach",

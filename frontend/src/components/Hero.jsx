@@ -11,7 +11,19 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center relative overflow-hidden">
+    <section id="home" className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center relative overflow-hidden animated-bg">
+      {/* Floating Elements */}
+      <div className="bg-particles">
+        <div className="floating-element floating-circle float-1 text-emerald-400" style={{top: '10%', left: '10%'}}></div>
+        <div className="floating-element floating-square float-2 text-blue-400" style={{top: '20%', right: '15%'}}></div>
+        <div className="floating-element floating-triangle float-3 text-purple-400" style={{bottom: '30%', left: '8%'}}></div>
+        <div className="floating-element floating-hexagon float-4 text-emerald-300" style={{top: '60%', right: '20%'}}></div>
+        <div className="floating-element floating-circle float-5 text-yellow-400" style={{bottom: '15%', right: '10%'}}></div>
+        <div className="floating-element floating-square float-1 text-blue-300" style={{top: '80%', left: '20%'}}></div>
+        <div className="floating-element floating-triangle float-2 text-emerald-500" style={{top: '15%', left: '70%'}}></div>
+        <div className="floating-element floating-circle float-3 text-purple-300" style={{bottom: '60%', right: '8%'}}></div>
+      </div>
+
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-emerald-500 rounded-full filter blur-3xl"></div>

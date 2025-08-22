@@ -49,13 +49,26 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 gap-8">
           {filteredProjects.map((project, index) => (
-            <Card key={index} className="bg-slate-900/50 border-slate-700 hover:bg-slate-900/70 transition-all duration-300 transform hover:scale-105 group">
+            <Card key={index} className="bg-slate-900/50 border-slate-700 hover:bg-slate-900/70 transition-all duration-300 transform hover:scale-105 group overflow-hidden">
+              {/* Project Image */}
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/50"></div>
+                <Badge 
+                  variant="outline" 
+                  className="absolute top-4 left-4 border-emerald-400 text-emerald-400 bg-slate-900/80 backdrop-blur-sm"
+                >
+                  {project.category}
+                </Badge>
+              </div>
+              
               <CardHeader>
                 <div className="flex items-start justify-between">
                   <div className="space-y-2">
-                    <Badge variant="outline" className="border-emerald-400 text-emerald-400">
-                      {project.category}
-                    </Badge>
                     <h3 className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">
                       {project.title}
                     </h3>

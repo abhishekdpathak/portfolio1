@@ -53,6 +53,7 @@ const About = () => {
             </div>
           </div>
 
+          {/* Content Section */}
           <div className="lg:order-1">
             <h3 className="text-3xl font-bold text-white mb-6">
               Marketing Professional with a Passion for Results
@@ -86,8 +87,10 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Highlights Section */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
             {highlights.map((highlight, index) => (
               <Card key={index} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-all duration-300 transform hover:scale-105">
                 <CardContent className="p-6 text-center">

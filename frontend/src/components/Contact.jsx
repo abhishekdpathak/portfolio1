@@ -20,7 +20,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6 text-purple-400" />,
       label: "Location",
-      value: "Open to relocate",
+      value: "Calgary (Open to relocate)",
       href: null
     }
   ];

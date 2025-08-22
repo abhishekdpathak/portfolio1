@@ -37,7 +37,23 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
+          {/* Personal Photo Section */}
+          <div className="lg:order-2">
+            <div className="relative">
+              <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl overflow-hidden border-4 border-emerald-400/20 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                <img 
+                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NTU4ODYxNTB8MA&ixlib=rb-4.1.0&q=85"
+                  alt="Abhishek Pathak - Marketing Professional"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Decorative elements */}
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-emerald-400/20 rounded-full blur-xl"></div>
+              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-blue-400/10 rounded-full blur-xl"></div>
+            </div>
+          </div>
+
+          <div className="lg:order-1">
             <h3 className="text-3xl font-bold text-white mb-6">
               Marketing Professional with a Passion for Results
             </h3>
